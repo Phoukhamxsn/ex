@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<style>
+    h1{color: rgb(252, 96, 40);
+    text-align: center;}
+    p,h3>span{
+        color: rgb(37, 202, 37);
+        text-align: center;
+    }
+    h3{text-align: center;}
+    .content{padding: 2px 4px 2px 4px;}
+    
+</style>
+
+<body>
+    
+    <div class="content">
+        
+    <h1>Bitcoin Price(BTC)</h1>
+    <p>Time: <span>Oct 17, 2022 11:47:00 UTC</span></p>
+    <h3>USD: <span id="usd">19,456.8181</span></h3>
+    <h3>EUR: <span id="eur">19,456.8181</span></h3>
+
+    </div>
+    <script>
+        //comment here ***
+       // let name = 'Kham';
+        document.write(name)
+        // comment multi
+        console.log(name)
+        // object variable
+        const person = {
+            name: 'Kham',
+            phone:'9559 9555',
+            address:{
+                village: 'Nongteng',
+                district: 'Vikhod',
+                province:'Vientiane',
+         
+            },
+            offices:['BitDigo','wecare','MTS']
+
+        }
+        console.log(person)
+        console.log(person.name)
+        console.log(person.address.village)
+        console.log(person.offices[0])
+        //function
+        function sayhi(name){
+            alert(`Hi. ${name}`)
+        }
+        sayhi('Kham')
+        sayhi('Mark')
+        ///
+        function myFunction() {
+  document.getElementById("demo").style.textAlign = "justify";
+}
+    </script>
+</body>
+</html>
